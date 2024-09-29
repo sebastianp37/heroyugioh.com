@@ -1,0 +1,71 @@
+/* Destiny heros*/
+
+.destino-background{
+    z-index: 1;
+    position: relative;
+    min-height: 100vh; 
+    background-image: url(../img/destiny/reloj.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; /* Para evitar huecos blancos*/
+}
+
+/* Estilo para personajes de los lados*/
+
+.dystopia {
+    z-index: 2;
+    position: absolute; /* Absolute superpone imagenes */
+    left: -25px; 
+    top: 350px;
+    max-height: 20%;
+    padding-right: 80px;
+}
+
+.plasma {
+    z-index: 1;
+    position: absolute;
+    left: 50px; 
+    top: 1px; 
+    max-height: 30%;
+}
+
+.celestial {
+    z-index: 3;
+    position: absolute; 
+    left: 150px; 
+    top: 350px; 
+    max-height: 18%;
+}
+
+/* Cuepro de Texto destiny hero*/
+.destino-texto{
+    color:white;
+    margin-left: auto;
+    padding: 20px;
+    max-width: 950px;
+    text-align: justify;
+}
+
+
+/* Cartas Destiny hero*/
+.destino-cartas, .destino-fusiones{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* Astro Phoenix Sección*/
+.astro-phoenix {
+    left: 15%;
+    top: 66%; 
+    color: white;
+}
+.astro-phoenix img{
+    padding-left: 30px;
+}

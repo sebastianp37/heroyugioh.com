@@ -1,0 +1,81 @@
+                           /* Elemental Heros*/
+
+                           .elemental-background{
+                            position: relative;
+                            min-height: 100vh; 
+                            background-image: url(../img/academia.png);
+                            background-size:cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            overflow: hidden; /* Para evitar huecos blancos*/
+                        }
+                        
+                        
+                        
+                        .elemental-texto{
+                            color:white;
+                            text-align:center;
+                            z-index: 5;
+                            font-size: 16px;
+                            padding: 15px;
+                            margin: 0 auto;
+                            max-width: 950px;
+                            text-align: justify;
+                        }
+                        
+                        .sabias-que{
+                            text-align: center;
+                        }
+                        
+                        
+                        /* Estilo para cartas */
+                        .excepciones-elemental,.fusiones-elemental,.neos-elemental {
+                            padding-top: 30px;
+                            padding-bottom: 30px;
+                            height: 220px;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            gap: 10px;
+                        
+                        /* Estilo para personajes de los lados*/
+                        }
+                        .burstinatrix{
+                            z-index: 1;
+                            position:absolute;
+                            top: 20%;
+                            left:97%;
+                            padding-right: 10px;
+                            transform: translate(-50%,-50%);
+                            width: 35%;
+                            
+                        }
+                        .sparkman{
+                            z-index: 1;
+                            position:absolute;
+                            top: 20%;
+                            left: 5%;
+                            padding-right: 10px;
+                            transform: translate(-50%,-50%);
+                            width: 40%;
+                            
+                        }
+                        .cosmo{
+                            z-index: 1;
+                            position:absolute;
+                            top: 75%;
+                            left: 2%;
+                            padding-right: 10px;
+                            transform: translate(-50%,-50%);
+                            width: 27%;
+                            
+                        }
+                        .brave{
+                            z-index: 1;
+                            position:absolute;
+                            top: 75%;
+                            left: 100%;
+                            padding-left: 70px;
+                            transform: translate(-50%,-50%);
+                            width: 40%;
+                        }

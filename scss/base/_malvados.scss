@@ -1,0 +1,72 @@
+/* Evil Hero */
+
+.evil-background{
+    z-index: 1;
+    position: relative;
+    min-height: 100vh; 
+    background-image: url(../img/malvados/supremecastle.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; /* Para evitar huecos blancos*/
+}
+/* Renders de personajes*/
+.render-bane{
+    z-index: 1;
+    position: absolute; /* Absolute superpone imagenes */
+    right: -100px; 
+    top:-10px;
+    max-height: 20%;
+    padding-right: 80px;
+}
+
+.render-sniper{
+    z-index: 2;
+    position: absolute;
+    right: 5%; 
+    top: 15%; 
+    max-height: 20%;
+}
+
+.render-gaia{
+    z-index: 3;
+    position: absolute; 
+    right: 1%;
+    top: 35%; 
+    max-height: 20%;
+}
+
+
+
+/* Evil Cuerpo */ 
+
+.evil-texto{
+    color:white;
+    margin-right: auto;
+    max-width: 950px;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+/* Evil cartas icónicas*/
+
+.evil-cartas, .super-poly, .evil-fusion{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Apartado Rey Supremo*/
+
+.rey-imagen{
+    max-width: 100%;
+    height: auto;
+}
+.rey-supremo{
+    color: white;
+}

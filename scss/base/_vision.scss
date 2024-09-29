@@ -1,0 +1,72 @@
+/* VISION HEROES */
+
+.vision-background{
+    z-index: 1;
+    position: relative;
+    min-height: 100vh; 
+    background-image: url(../img/vision/wallpaper.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden; /* Para evitar huecos blancos*/
+    
+}
+
+/* Vision Personajes*/
+
+.render-minimum{
+    z-index: 1;
+    position: absolute; /* Absolute superpone imagenes */
+    max-height: 15%;
+    top:10%;
+    padding-right: 20px;
+}
+
+.render-poisoner{
+    z-index: 1;
+    position: absolute; /* Absolute superpone imagenes */
+    right: -100px; 
+    top:10%;
+    max-height: 20%;
+    padding-right: 80px;
+}
+
+
+/* Vision Texto*/
+.vision-texto {
+    color:white;
+    margin-right: auto;
+    max-width: 950px;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+/*  Vision cartas*/
+.vision-cartas{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.vision-fusiones{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.vision-usuario{
+    max-width: 100%;
+    height: auto;
+}
+
+.vision-astro{
+    color: white;
+}

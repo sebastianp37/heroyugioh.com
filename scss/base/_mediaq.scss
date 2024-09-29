@@ -1,0 +1,263 @@
+/* MEDIA QUERYS*/
+
+@media (min-width: 1024px){
+    #fondo-char{
+        display: block; 
+    }
+    .inicio-heroes{
+        display: block; 
+        margin: 0 auto; 
+    }
+    .navbar-item{
+        display: flex;
+        justify-content: right;
+        text-align: right;
+    }
+
+    /* CARTAS ELEMENTAL HERO*/
+    .excepciones-elemental,.fusiones-elemental,.neos-elemental {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    /* CARTAS DESTINY HERO */
+    .destino-cartas, .destino-fusiones{
+        z-index: 10;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    /* Astro Phoenix Sección*/
+    .astro-phoenix {
+        position: absolute;
+        left: 1%;
+        top: 60%; 
+        width: auto;
+        height: auto;
+    }
+    
+    .astro-phoenix img {
+        max-width: 100%; 
+        height: auto; 
+    }
+    .astro-titulo{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* CARTAS EVIL HERO*/
+
+    .evil-cartas, .super-poly, .evil-fusion{
+        z-index: 10;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    /* Rey Supremo Sección */
+    .rey-supremo {
+        position: absolute;
+        left: 60%;
+        top: 76%;
+        font-size: 20px; 
+    }
+    .rey-supremo img{
+        max-width: 90%; 
+        padding-left: 80px;
+    }
+
+  .rey-titulo{
+    font-size: 25px;
+    text-align: center;
+    padding-left: 10px;
+  }
+        
+
+    /* Vision Hero*/
+
+    /* Vision Texto*/
+
+    .vision-texto {
+        color:white;
+        text-align:justify;
+        z-index: 5;
+        font-size: 20px;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 950px;
+        padding-top: 100px;
+        position: relative;
+    }
+    /*  Vision cartas*/
+
+    .vision-cartas{
+        z-index: 1;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .vision-fusiones {
+        position: relative;
+        margin: 0 auto; 
+        text-align: center;
+        height: auto; 
+        padding: 20px;
+    }
+
+    .vision-fusiones img {
+        z-index: 1;
+        height: auto; 
+        max-height: 400px; 
+        margin: 0 auto; 
+        display: block; 
+    }
+
+
+    }
+    .vision-astro {
+       align-items: center;
+       position: relative;
+       display: flex;
+       flex-direction: column;
+
+    }
+
+
+@media (min-width: 768px){
+    .inicio-heroes{
+        display: block; 
+        margin: 0 auto; 
+}
+
+/* CARTAS ELEMENTAL HERO*/
+.excepciones-elemental,.fusiones-elemental,.neos-elemental {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    }
+
+.sabias-que{
+    font-size:40px;
+}
+
+/* CARTAS DESTINY HERO */
+.destino-cartas, .destino-fusiones{
+    z-index: 10;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    }
+
+/* Astro Phoenix Sección*/
+.astro-phoenix img{
+    display: block;
+    margin: 0 auto;
+}
+.astro-titulo{
+    font-size: 45px;
+    text-align: center;
+}
+
+/* CARTAS EVIL HERO*/
+
+   .evil-cartas, .super-poly, .evil-fusion{
+    z-index: 10;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* Rey Supremo Sección */
+
+.rey-supremo img{
+    display: block;
+    margin: 0 auto;
+}
+
+.rey-titulo{
+font-size: 45px;
+text-align: center;
+padding-left: 10px;
+}
+    
+    /* Vision Hero*/
+
+    /* Vision Texto*/
+
+    .vision-texto {
+        color:white;
+        text-align:justify;
+        z-index: 5;
+        font-size: 20px;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 950px;
+        padding-top: 100px;
+        position: relative;
+    }
+    /*  Vision cartas*/
+
+    .vision-cartas{
+        z-index: 1;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .vision-fusiones {
+        position: relative;
+        margin: 0 auto; 
+        text-align: center;
+        height: auto; 
+        padding: 20px;
+    }
+
+    .vision-fusiones img {
+        z-index: 1;
+        height: auto; 
+        max-height: 400px; 
+        margin: 0 auto; 
+        display: block; 
+    }
+
+    .vision-astro {
+       align-items: center;
+       position: relative;
+       display: flex;
+       flex-direction: column;
+
+    }
+
+}
